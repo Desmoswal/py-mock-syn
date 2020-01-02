@@ -1,8 +1,8 @@
-from model import TestModel
+from model.TestModel import TestModel
 import random
 
 
 class TestRepository:
 
     def getModelById(self,id):
-        return TestModel.TestModel(1, "itsworking", random.random())
+        return TestModel(1, "itsworking", random.random())
